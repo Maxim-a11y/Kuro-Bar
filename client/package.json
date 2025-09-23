@@ -1,0 +1,37 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "browser-sync": "^3.0.4",
+    "css-loader": "^7.1.2",
+    "del": "^8.0.0",
+    "fontkit": "^2.0.4",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^10.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "^2.1.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-webp": "^5.1.0",
+    "gulp-webp-css": "^1.1.0",
+    "gulp-webp-html-nosvg": "^1.1.1",
+    "sass": "^1.90.0",
+    "style-loader": "^4.0.0",
+    "webp-converter": "^2.2.3",
+    "webpack-stream": "^7.0.0"
+  }
+}
